@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #dfe6e9;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-color: #353b48;
+}
+.menu .menu-bar{
+    width: auto;
+    height: 40px;
+    padding: 15px;
+    font-size: 20px;
+    color: aliceblue;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu .menu-bar:hover{
+    color: #7f8fa6;
+    font-weight: 200;
+}
+.logo{
+    width: 200px;
+    clear: both;
+    float: right;
+    margin: 20px;
+}
+main{
+    width: 90%;
+    height: 500px;
+    background-color: #353b48;
+    border: 2px solid black;
+    border-radius: 4px;
+    clear: both;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main > div{
+    width: 33.33%;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+}
+main .c1 > a img{
+    width: 100%;
+    height: 50%;
+    border-radius: 4px;
+}
+main .c2 > a img{
+    width: 98%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 4px;
+}
+main div a img:hover{
+    opacity: 0.8;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    display: block;
+    position: relative;
+    bottom: 0;
+    background-color: #353b48;
+    margin-top: 50px;
+    overflow: hidden;
+}
+footer .fb-1{
+    background-color: #15181a;
+    border-radius: 10px;
+}
+footer > .footer-box{
+    width: 33.33%;
+    height: 100%;
+}
+footer .footer-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+footer .footer-box > p{
+    width: 300px;
+    height: 100px;
+    text-align: right;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    color: #dfe6e9;
+    font-family: 'Amiri', serif;
+}
