@@ -73,30 +73,4 @@ footer{
     margin-top: 50px;
     overflow: hidden;
 }
-footer .fb-1{
-    background-color: #15181a;
-    border-radius: 10px;
-}
-footer > .footer-box{
-    width: 33.33%;
-    height: 100%;
-}
-footer .footer-box img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-}
-footer .footer-box > p{
-    width: 300px;
-    height: 100px;
-    text-align: right;
-    position: absolute;
-    top: 5px;
-    left: 120px;
-    color: #dfe6e9;
-    font-family: 'Amiri', serif;
-}
+
