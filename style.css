@@ -10,6 +10,7 @@ body{
     height: 50px;
     margin: 0;
     background-color: #353b48;
+    z-index: 1;
 }
 .menu .menu-bar{
     width: auto;
