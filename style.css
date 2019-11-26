@@ -6,7 +6,7 @@
 body{
     margin: 0;
     background-color: #dfe6e9;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .menu{
     width: 100%;
@@ -50,6 +50,7 @@ input[type=submit]{
     border: 2px solid black;
     border-radius: 6px;
     font-weight: bolder;
+    cursor: pointer;
 }
 .logo{
     width: 200px;
@@ -121,5 +122,42 @@ main div a img:hover{
 @-o-keyframes news{
     0%{left: -250px;}
     100%{left: 100%;}
+}
+body h1{
+    float: right;
+    margin: 50px;
+    font-family: 'Lateef', cursive;
+    margin-bottom: 0;
+}
+section {
+    clear: both;
+    width: 100%;
+}
+section .news-tech{
+    width: 25%;
+    height: 300px;
+    margin: 4%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+section .news-tech > a img{
+    width: 100%;
+    height: 100%;
+}
+section .news-tech > a img:hover{
+    border: 2px solid black;
+}
+section .news-tech > a h2{
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    width: 80%;
+    bottom: 0px;
+    color: white;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    text-shadow: 2px 2px black;
 }
 
