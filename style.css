@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 body{
     margin: 0;
     background-color: #dfe6e9;
+    overflow: hidden;
 }
 .menu{
     width: 100%;
@@ -29,17 +32,24 @@ body{
 }
 .serech-box{
     width: 100%;
-    height: 90px;
+    height: 60px;
     background-color: #7f8fa6; 
     margin-top: 1px;
     padding: 0px;
 }
-.seatch{
+.search{
     width: 30%;
-    margin: 2%;
-    padding: 0.6%;
-    border: 2px solid #353b48;
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid black;
     border-radius: 9px;
+}
+input[type=submit]{
+    padding: 6px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-weight: bolder;
 }
 .logo{
     width: 200px;
@@ -78,14 +88,38 @@ main .c2 > a img{
 main div a img:hover{
     opacity: 0.8;
 }
-footer{
+
+.news-bar{
+    background-color: #999b9ebe;
     width: 100%;
-    height: 150px;
-    display: block;
+    margin: 0;
+}
+.news-bar p{
+    margin-top: 0;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    font-family: 'Markazi Text', serif;
+    animation: news 25s linear infinite;
+    -moz-animation: news 25s linear infinite;
+    -webkit-animation: news 25s linear infinite;
+    -o-animation: news 25s linear infinite;
     position: relative;
-    bottom: 0;
-    background-color: #353b48;
-    margin-top: 50px;
-    overflow: hidden;
+}
+@keyframes news{
+    0%{left: -250px;}
+    100%{left: 100%;}
+}
+@-moz-keyframes news{
+    0%{left: -250px;}
+    100%{left: 100%;}
+}
+@-webkit-keyframes news{
+    0%{left: -250px;}
+    100%{left: 100%;}
+}
+@-o-keyframes news{
+    0%{left: -250px;}
+    100%{left: 100%;}
 }
 
