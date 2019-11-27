@@ -159,4 +159,43 @@ section .news-tech > a h2{
     font-size: 20px;
     text-overflow: ellipsis;
     text-shadow: 2px 2px black;
+    font-family: 'Lateef', cursive;
+}
+article{
+    width: 350px;
+    overflow: hidden;
+    margin: 30px;
+    border: 2px solid rgb(134, 132, 132);
+    border-radius: 4px;
+}
+article h2{
+    float: right;
+    margin-right: 25px;
+    font-family: 'Lateef', cursive;
+}
+article > .art{
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    margin: 25px;
+}
+article .art a{
+    text-decoration: none;
+    color: rgb(90, 86, 86);
+}
+article .art a:hover{
+    color: rgb(19, 7, 73);
+    font-weight: bold;
+}
+article .art > a img{
+    width: 120px;
+    height: 100px;
+    float: right;
+    border-radius: 4px;
+}
+article .art > a p{
+    font-family: 'Almarai', sans-serif;
+    text-align: right;
+    width: 170px;
+    margin-right: 10px;
 }
