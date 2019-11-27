@@ -58,16 +58,8 @@ input[type=submit]{
     float: right;
     margin: 20px;
 }
-main {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-   
 
-
-}
-/*main{
+main{
     width: 90%;
     height: 500px;
     background-color: #353b48;
@@ -97,7 +89,7 @@ main .c2 > a img{
 }
 main div a img:hover{
     opacity: 0.8;
-}*/
+} 
 
 .news-bar{
     background-color: #999b9ebe;
