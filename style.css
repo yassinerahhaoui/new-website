@@ -162,11 +162,12 @@ section .news-tech > a h2{
     font-family: 'Lateef', cursive;
 }
 article{
-    width: 350px;
+    width: 25%;
     overflow: hidden;
-    margin: 30px;
+    margin: 2%;
     border: 2px solid rgb(134, 132, 132);
     border-radius: 4px;
+    float: left;
 }
 article h2{
     float: right;
@@ -174,10 +175,10 @@ article h2{
     font-family: 'Lateef', cursive;
 }
 article > .art{
-    width: 300px;
+    width: 90%;
     height: 100px;
     overflow: hidden;
-    margin: 25px;
+    margin: 5%;
 }
 article .art a{
     text-decoration: none;
@@ -188,7 +189,7 @@ article .art a:hover{
     font-weight: bold;
 }
 article .art > a img{
-    width: 120px;
+    width: 40%;
     height: 100px;
     float: right;
     border-radius: 4px;
@@ -196,6 +197,49 @@ article .art > a img{
 article .art > a p{
     font-family: 'Almarai', sans-serif;
     text-align: right;
-    width: 170px;
-    margin-right: 10px;
+    width: 56%;
+    margin-right: 2%;
+}
+
+header{
+    width: 65%;
+    float: right;
+    height: 663px;
+    border: 2px solid rgb(134, 132, 132);
+    border-radius: 4px;
+    margin: 2%;
+    overflow: hidden;
+    position: relative;
+}
+header h1{
+    margin: 10px;
+    position: absolute;
+    font-family: 'Lateef', cursive;
+    animation: hdr 10s linear infinite alternate;
+    -moz-animation: hdr 10s linear infinite alternate;
+    -webkit-animation: hdr 10s linear infinite alternate;
+    -o-animation: hdr 10s linear infinite alternate;
+}
+header > .hr{
+    width: 100%;
+    margin-top: 60px;
+    border: 1px solid rgb(134, 132, 132);
+    clear: both;
+    float: right;
+}
+@keyframes hdr{
+    0%{left: 5%;}
+    100%{left: 80%;}
+}
+@-moz-keyframes hdr{
+    0%{left: 10%;}
+    100%{left: 90%;}
+}
+@-webkit-keyframes hdr{
+    0%{left: 10%;}
+    100%{left: 90%;}
+}
+@-o-keyframes hdr{
+    0%{left: 10%;}
+    100%{left: 90%;}
 }
