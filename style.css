@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
 *{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -242,4 +243,79 @@ header > .hr{
 @-o-keyframes hdr{
     0%{left: 10%;}
     100%{left: 90%;}
+}
+header > .hr-t img{
+    width:80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+header .hr-t .text h3{
+    text-align: center;
+    font-family: 'Lateef', cursive;
+}
+header > .hr-t .text p{
+    text-align: justify;
+    font-family: 'Almarai', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #353b48;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
+footer p{
+    font-family: 'Solway', serif;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+footer .back{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px; 
+}
+footer .social{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+footer .social a{
+    display: inline;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 10px;
+}
+footer .social .facebook:hover{
+    color: blue;
+}
+footer .social .twitter:hover{
+    color: #00a8ff;
+}
+footer .social .snapchat:hover{
+    color: yellow;
+}
+footer .social .youtube:hover{
+    color: red;
+}
+footer .social .instagram:hover{
+    color: #FC427B;
 }
