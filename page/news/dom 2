@@ -1,1 +1,110 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="280.jpg">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="menu" id="menu1">
+        <a href="../../index.html" class="menu-bar">الرئيسية <i class="fas fa-home"></i></a>
+        <a class="menu-bar">أخبار <i class="fas fa-newspaper"></i></a>
+        <a class="menu-bar">مقالات <i class="far fa-newspaper"></i></a>
+        <a class="menu-bar">تقارير <i class="far fa-clipboard"></i></a>
+        <a class="menu-bar">بيانات صحفية <i class="fas fa-camera"></i></a>
+        <a class="menu-bar">إعلانات <i class="fas fa-headset"></i></a>
+        <form action="">
+            <input type="search" class="search" name="search" placeholder="Search" id="">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+        <div class="news-bar">
+            <p>هنا ستكون عناوين آخر الأخبار و المقالات</p>
+        </div>
+    <br>
+    <div class="paragraph" style="dir=rtl; padding: 30px; width: 70%; justify-content: center; flex-wrap: wrap; ">
+        <h1>
+        ألق نظرة على PlayStation الأصلي في ذكرى مرور 25 عامًا
+
+        </h1>
+
+
+    <img src="dims.jpg" width="60%" height="50%">
+        <p>
+           إذا كنت لاعباً في سن معينة (سعال) ، فأنت على وشك أن تشعر بالشيخوخة. أصدرت شركة سوني جهاز PlayStation الأصلي منذ 25 عامًا في الثالث من ديسمبر عام 1994 ، وقد ميزت iFixit هذه الفرصة بتخليصها من أول طراز ياباني فقط لم يصل رسميًا إلى بلدان أخرى. إن القول بأنه إرتداد لعصر آخر سيكون بخس. ليس فقط تضمين محرك الأقراص المضغوطة فقط ، وحدة MIPS متواضعة من 32 بت (قاعدة PS4 أسرع بنحو 50 مرة) ، ومنفذ S-Video وفتحات لبطاقات ذاكرة 128 كيلو بايت - بعد الوفاة يسلط الضوء على نهج مختلف اختلافا جوهريا لتصميم الالكترونيات.
+        </p>
+       
+        <p>
+ لأحد ، فمن السهل يبعث على السخرية الدخول في النظام واستبدال الأجزاء. تحتاج فقط إلى مفك البراغي من Philips و spudger لإزالة كل شيء ، مما يؤكد التباين مع الإلكترونيات الحديثة التي يصعب إصلاحها بنفسك. هناك الكثير من الأشياء التي يجب إزالتها ، ويبدو أن قوة الحوسبة المتواضعة التي يمكن أن تجعل معظم لوحات المفاتيح الحديثة تبدو ضخمة. نادرًا ما تشاهد إلكترونيات كهذه في عام 2019 ، وترغب في العودة إلى قوة الحوسبة التي تعود إلى عام 1994 ، فإن البساطة جذابة.
+        </p>
+      
+       
+        <p>
+       توقيت teardown مهم إلى جانب عيد الميلاد 25 وحدة التحكم. إنه تذكير أيضًا بأن تصميم PlayStation على وشك التغيير مع إصدار PlayStation 5 ، بهدف تخزين الحالة الصلبة والتنزيلات والبث. من كان يظن قبل 25 عامًا أن الأقراص الضوئية (حتى أقراص Blu-ray بسعة 100 جيجابايت في PS5) ستشعر بالحصار؟ من الجيد إعادة النظر في جذور PlayStation ، كما أنه من الجيد أن نعرف أن التكنولوجيا قد تطورت على قدم وساق.
+      
+        </p>
+
+        <video src="https://youtu.be/zTkuu1plCzM" controls poster="dims.jpg" width="100%" height="100%" >
+        </video>
+                        
+        
+        
+        
+ </div>
+
+    <article>
+        <h2>:آخر المقالات</h2>
+        <div class="art">
+            <a href="">
+                <img src="../../image/06.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/07.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/08.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/09.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/10.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+    </article>
+</body>
+
+
+</html>
