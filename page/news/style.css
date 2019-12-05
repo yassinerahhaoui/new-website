@@ -93,6 +93,9 @@ input[type=submit]{
     float: right;
     margin: 5%;
     margin-top: 0;
+    padding: 30px;
+    text-align: center;
+    flex-wrap: wrap; 
 }
 .paragraph > img{
     width: 100%;
@@ -104,8 +107,10 @@ input[type=submit]{
 }
 .paragraph > p{
     width: 100%;
+    dir: rtl; 
     font-family: 'Almarai', sans-serif;
-    text-align: justify;
+    text-align: center;
+    font-size: 19px;
 }
 article{
     width: 25%;
