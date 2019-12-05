@@ -93,7 +93,6 @@ input[type=submit]{
     float: right;
     margin: 5%;
     margin-top: 0;
-    padding: 30px;
     text-align: center;
     flex-wrap: wrap; 
 }
