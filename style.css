@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almarai|Amiri|Lateef|Markazi+Text&display=swap');
 *{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -53,12 +54,7 @@ input[type=submit]{
     font-weight: bolder;
     cursor: pointer;
 }
-.logo{
-    width: 200px;
-    clear: both;
-    float: right;
-    margin: 20px;
-}
+
 main{
     width: 90%;
     height: 500px;
@@ -197,7 +193,7 @@ article .art > a img{
 }
 article .art > a p{
     font-family: 'Almarai', sans-serif;
-    text-align: right;
+    float: left;
     width: 56%;
     margin-right: 2%;
 }
@@ -228,47 +224,7 @@ header > .hr{
     clear: both;
     float: right;
 }
-.artcle1 {
-    width: 60%;
-    margin-top: 10px;
-    height: 200px;
-    text-align: center;
-    margin: auto;
-    overflow: hidden;
-}
 
-.artcle1 h1 {
-     margin: auto;
-    font-size: 18px;
-    margin-top: 100px;
-    font-family: monospace;
-
-}
-
-.img1 {
-    padding: 4px;
-    width: 70%;
-    height: 200px;
-    margin: auto;
-    clear: both;
-    position: relative;
-    top: 10px;
-
-}
-
-.img1 img {
-    width: 100%;
-    height: 200%;
-    overflow: hidden;
-    padding: 8px;
-}
-
-.para p{
-    margin-top: 190px;
-    padding: 44px;
-    text-align: right;
-    font-size: 23px;
-}
 
 @keyframes hdr{
     0%{left: 5%;}
@@ -331,6 +287,10 @@ footer .back{
     position: absolute;
     top: 10px;
     left: 20px; 
+}
+footer .back:hover{
+    color: turquoise;
+    border-color: turquoise;
 }
 footer .social{
     text-align: center;
