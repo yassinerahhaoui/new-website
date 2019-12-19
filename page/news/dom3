@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="280.jpg">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="menu" id="menu1">
+        <a href="../../index.html" class="menu-bar">الرئيسية <i class="fas fa-home"></i></a>
+        <a class="menu-bar">أخبار <i class="fas fa-newspaper"></i></a>
+        <a class="menu-bar">مقالات <i class="far fa-newspaper"></i></i></a>
+        <a class="menu-bar">تقارير <i class="far fa-clipboard"></i></a>
+        <a class="menu-bar">بيانات صحفية <i class="fas fa-camera"></i></a>
+        <a class="menu-bar">إعلانات <i class="fas fa-headset"></i></a>
+       
+    </div>
+    <form action="">
+        <input type="search" class="search" name="search" placeholder="Search" id="">
+        <input type="submit" value="Search">
+    </form>
+        <div class="news-bar">
+            <p>هنا ستكون عناوين آخر الأخبار و المقالات</p>
+        </div>
+    <br>
+    <div class="paragraph" dir="rtl">
+        <h1>
+            تطوير معيار لصناعة المنزل الذكي
+
+        </h1>
+
+
+    <img src="proj.png">
+
+    
+      
+    <p>
+        تطورت التكنولوجيا في المنازل اليومية منذ بداية العقد. يمكن توصيل كل جزء من المنزل تقريبًا بالإنترنت ، مما يسمح بالتحكم المحلي أو عن بُعد في منظمات الحرارة ، والكاميرات ، والأقفال ، والأضواء ، والمفاتيح ، وأجهزة الاستشعار ، وحتى الأبواب الهزلية. على الرغم من وفرة الأجهزة المنزلية الذكية ، فإن عدم وجود معيار للاتصال على مستوى الصناعة يجعل الناس في حيرة من الإحباط والإحباط عند محاولة فهم الأجهزة التي تعمل مع كل نظام بيئي منزلي ذكي. كما أنه يضع عبئًا ثقيلًا على الشركات المصنعة للتأكد من أن جميع الأجهزة متوافقة مع بعضها البعض.
+    </p>
+ <p>
+    نحن ننضم إلى Amazon و Apple وغيرها لإنشاء Connected Home عبر IP ، وهي مجموعة عمل مستقلة جديدة يديرها تحالف Zigbee (منفصلة عن بروتوكول Zigbee 3.0 / Pro الحالي). هدفنا هو الجمع بين التقنيات التي تم اختبارها في السوق لوضع معيار جديد ومفتوح للاتصال بالمنزل الذكي يعتمد على بروتوكول الإنترنت (IP). يعود استخدام Google للملكية الفكرية في المنتجات المنزلية إلى إطلاق Nest Learning Thermostat في عام 2011. كما يمكّن IP من اتصال مباشر وآمن بين الأجهزة الذكية وتطبيقات الأجهزة المحمولة والخدمات السحابية.
+
+ </p>
+ <p>
+    نحن نساهم في اثنين من تقنيات المنزل الذكي التي تم اختبارها من قبل السوق والمفتوحة المصدر ، Weave و Thread. كلاهما مبني على الملكية الفكرية وتم دمجهما في ملايين المنازل حول العالم. يعمل Weave ، وهو بروتوكول تطبيق ، على العديد من الشبكات مثل Thread و Wi-Fi و Bluetooth Low Energy وحتى الخلوية. حتى عندما تكون الأجهزة على شبكات مختلفة ، فإن Weave يسمح لهم جميعًا بالعمل بشكل آمن مع بعضهم البعض.  
+ </p>
+ <p>
+    سيستفيد المطورون والمستهلكون من هذا المعيار العالمي الجديد للاتصال المنزلي الذكي. للمطورين ، يعمل هذا البرنامج على تبسيط عملية تطوير المنتج وخفض التكاليف عن طريق منحهم معيارًا واحدًا لبناء منتجاتهم. ستحصل عندئذٍ على القوة التي تختارها للتحكم في منزلك ، بغض النظر عن تقنية المنزل الذكي التي تختارها. ستكون الأجهزة المنزلية الذكية متوافقة مع العديد من الأنظمة الأساسية ، بحيث يمكنك الاختيار بين مساعد Google أو Amazon Alexa أو Apple Siri أو منصات أخرى.
+ </p>
+ <p>
+    يسعدنا أن نتشارك مع الصناعة في المرحلة التالية من النمو لآلاف مطوري المنازل الذكية في أعمالنا مع برنامج مساعد Google. يجعلنا هذا المشروع أقرب إلى رؤية المنزل المفيد الذي يعتني بالأشخاص الموجودين فيه.
+ </p>
+    </div>
+
+    <article>
+        <h2>:آخر المقالات</h2>
+        <div class="art">
+            <a href="">
+                <img src="../../image/06.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/07.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="280.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/09.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+        <div class="art">
+            <a href="">
+                <img src="../../image/10.jpg" alt="">
+                <p>
+                    تطبيق Allo الجديد من جوجل قد يجعلك تستغنى عن whatsApp
+                </p>
+            </a>
+        </div>
+    </article>
+</body>
+
+
+</html>
