@@ -333,7 +333,8 @@ footer .social .instagram:hover{
 
     .search {
         width: 56%;
-        margin: 4px;
+        margin-top: 7px;
+        margin-bottom: 7px;
     }
 
     .news-bar p {
@@ -341,15 +342,12 @@ footer .social .instagram:hover{
     }
 
     main {
+        margin-top: 50px;
         height: 304px;
     }
 
-    .search {
-        width: 72%;
-    }
-
     .news-bar {
-        margin-top: 6px;
+        display: none;
     }
 
     section .news-tech {
@@ -383,19 +381,24 @@ footer .social .instagram:hover{
 
     input[type=submit] {
         float: right;
-        margin-top: 9px;
+        margin-top: 19px;
+        margin-bottom: 10px;
     }
 
     main {
-        height: 304px;
+        height: 350px;
+
     }
 
     .search {
         width: 72%;
+        margin-top: 19px;
+        margin-bottom: 10px;
     }
 
     .news-bar {
-        margin-top: 6px;
+       display: none;
+
     }
 
     section .news-tech {
@@ -419,4 +422,3 @@ footer .social .instagram:hover{
         height: 258px;
     }
 }
-
