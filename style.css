@@ -321,6 +321,7 @@ footer .social .youtube:hover{
 footer .social .instagram:hover{
     color: #FC427B;
 }
+
 @media only screen and (min-width:240px) and (max-width:640px) {
 
     .menu {
@@ -392,4 +393,46 @@ footer .social .instagram:hover{
         text-align: center;
     }
 
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    form{
+        width: 70%;
+        margin: 10px;
+        position: relative;
+        top: 10px;
+        left: 3px;
+        float: left;
+      
+}
+.search{
+    width: 45%;
+    float: left;
+   }
+input[type=submit] {
+   margin-top: 10px;
+}
+.search:hover{
+    width: 80%;
+    background-color: #7a96a313;
+    color: black;
+}
+.news-bar {
+ display: none;
+}
+body h1 {
+    margin-right: 80px;
+}
+section .news-tech {
+    width: 40%;
+}
+article {
+    width: 90%;
+    border: none
+}
+header{
+    width: 95%;
+
+}
+footer p{
+    
 }
